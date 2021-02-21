@@ -9,6 +9,17 @@ log_warn(message)
 \arguments{
 \item{message}{your message to log}
 }
+\value{
+invisibly returns TRUE/FALSE
+}
 \description{
-Log a warning message
+Log messages will only be emitted if the log priority matches or is higher
+than the priority of your message
+}
+\examples{
+\dontrun{
+log_warn("This is a warning message")
+Sys.setenv("LOG_LEVEL" = "TRACE")
+log_warn("This is a warning message")
+}
 }

@@ -9,6 +9,17 @@ log_info(message)
 \arguments{
 \item{message}{your message to log}
 }
+\value{
+invisibly returns TRUE/FALSE
+}
 \description{
-Log an info message
+Log messages will only be emitted if the log priority matches or is higher
+than the priority of your message
+}
+\examples{
+\dontrun{
+log_info("This is an info message")
+Sys.setenv("LOG_LEVEL" = "TRACE")
+log_info("This is an info message")
+}
 }

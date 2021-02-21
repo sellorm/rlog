@@ -9,6 +9,17 @@ log_trace(message)
 \arguments{
 \item{message}{your message to log}
 }
+\value{
+invisibly returns TRUE/FALSE
+}
 \description{
-Log a trace message
+Log messages will only be emitted if the log priority matches or is higher
+than the priority of your message
+}
+\examples{
+\dontrun{
+log_trace("This is a trace message")
+Sys.setenv("LOG_LEVEL" = "TRACE")
+log_trace("This is a trace message")
+}
 }
