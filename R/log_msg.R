@@ -16,9 +16,9 @@ log_msg <- function(message, msg_level = "INFO"){
   }
   if (as.integer(levels[tolower(level)]) <= as.integer(levels[tolower(msg_level)])) {
     if (as.integer(levels[tolower(msg_level)]) > 3) {
-      cat(paste0(Sys.time(), " [", msg_level, "] ", message), file=stderr())
+      cat(paste0(Sys.time(), " [", msg_level, "] ", message, "\n"), file=stderr())
     } else {
-      cat(paste0(Sys.time(), " [", msg_level, "] ", message), file=stdout())
+      cat(paste0(Sys.time(), " [", msg_level, "] ", message, "\n"), file=stdout())
     }
     invisible(TRUE)
   } else {
