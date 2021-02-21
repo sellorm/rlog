@@ -1,14 +1,16 @@
 Package: rlog
 Title: A Simple, Opinionated Logging Utility 
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "Mark",
            family = "Sellors",
            role = c("aut", "cre"),
            email = "rstats@5vcc.com")
 Description: A very lightweight package that writes out log messages in an opinionated way.
-  Simpler and lighter than other logging packages, log, provides a compact featureset that
-  focuses on getting the job done in a unix-like way.
+  Simpler and lighter than other logging packages, rlog provides a compact featureset that
+  focuses on getting the job done in a Unix-like way.
+URL: https://github.com/sellorm/rlog
+Bugs: https://github.com/sellorm/rlog/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
