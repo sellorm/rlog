@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rlog.sellorm.com/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rlog.sellorm.com/reference/log_debug.html</loc>
+  </url>
+  <url>
+    <loc>https://rlog.sellorm.com/reference/log_error.html</loc>
+  </url>
+  <url>
+    <loc>https://rlog.sellorm.com/reference/log_fatal.html</loc>
+  </url>
+  <url>
+    <loc>https://rlog.sellorm.com/reference/log_info.html</loc>
+  </url>
+  <url>
+    <loc>https://rlog.sellorm.com/reference/log_trace.html</loc>
+  </url>
+  <url>
+    <loc>https://rlog.sellorm.com/reference/log_warn.html</loc>
+  </url>
+</urlset>
