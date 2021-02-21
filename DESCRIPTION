@@ -1,0 +1,19 @@
+Package: rlog
+Title: A Simple, Opinionated Logging Utility 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mark",
+           family = "Sellors",
+           role = c("aut", "cre"),
+           email = "rstats@5vcc.com")
+Description: A very lightweight package that writes out log messages in an opinionated way.
+  Simpler and lighter than other logging packages, log, provides a compact featureset that
+  focuses on getting the job done in a unix-like way.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
