@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "rstats@5vcc.com")
 Description: A very lightweight package that writes out log messages in an opinionated way.
-  Simpler and lighter than other logging packages, rlog provides a compact feature set that
+  Simpler and lighter than other logging packages, 'rlog' provides a compact feature set that
   focuses on getting the job done in a Unix-like way.
 URL: https://github.com/sellorm/rlog
 BugReports: https://github.com/sellorm/rlog/issues
