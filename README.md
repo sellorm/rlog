@@ -40,7 +40,7 @@ rlog is simple by design and it relies on existing Unix/Linux norms to get the j
 
 ## Usage
 
-The best way to use rlag is to call the functions directly from within your applications.
+The best way to use rlog is to call the functions directly from within your applications.
 
 There is one function per log message level:
 
