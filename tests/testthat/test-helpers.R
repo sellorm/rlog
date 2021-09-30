@@ -31,4 +31,7 @@ test_that("output is going going to the correct stdout/stderr", {
   expect_match(capture.output(log_fatal("fatal"), type = "message"), "fatal$")
 })
 
+test_that("CI Fails if tests fail", {
+  expect_true(FALSE)
+})
 
