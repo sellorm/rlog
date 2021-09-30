@@ -18,7 +18,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-    steps:
       - # It is often a desired behavior to merge only when a workflow execution
         # succeeds. This can be changed as needed.
         if: ${{ github.event.workflow_run.conclusion == 'success' }}
