@@ -1,5 +1,9 @@
 # rlog
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/sellorm/rlog/workflows/R-CMD-check/badge.svg)](https://github.com/sellorm/rlog/actions)
+<!-- badges: end -->
+
 rlog is an opinionated, lightweight logging package for R.
 
 It relies on long standing Unix traditions, to write simple log messages in a flexible way.
