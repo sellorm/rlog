@@ -27,7 +27,6 @@ jobs:
           git config --global user.name "GHA auto-commit"
           git checkout -B rspm
           git rebase main
-          git commit -am "Auto commit from GHA"
-          git push
+          git push -u origin rspm
         shell: bash
 
