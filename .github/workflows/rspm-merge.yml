@@ -1,0 +1,32 @@
+name: rspm-merge
+
+on:
+  workflow_run:
+    types:
+      - completed
+    workflows:
+      # List all required workflow names here.
+      - 'R-CMD-check'
+
+jobs:
+  rspm-merge:
+    name: rspm-merge
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+
+    steps:
+      - uses: actions/checkout@v2
+    steps:
+      - # It is often a desired behavior to merge only when a workflow execution
+        # succeeds. This can be changed as needed.
+        if: ${{ github.event.workflow_run.conclusion == 'success' }}
+        name: Merge me!
+        run: |
+          git checkout rspm
+          git rebase main
+          git commit -am "Auto commit from GHA"
+          git push
+        shell: bash
+
