@@ -4,10 +4,12 @@
 \alias{log_warn}
 \title{Log a warning message}
 \usage{
-log_warn(message)
+log_warn(message, ...)
 }
 \arguments{
 \item{message}{your message to log}
+
+\item{...}{more elements of the message, to be concatenated with the message}
 }
 \value{
 invisibly returns TRUE/FALSE

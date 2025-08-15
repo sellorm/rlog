@@ -4,10 +4,12 @@
 \alias{log_debug}
 \title{Log a debug message}
 \usage{
-log_debug(message)
+log_debug(message, ...)
 }
 \arguments{
 \item{message}{your message to log}
+
+\item{...}{more elements of the message, to be concatenated with the message}
 }
 \value{
 invisibly returns TRUE/FALSE

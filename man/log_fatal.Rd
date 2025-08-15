@@ -4,10 +4,12 @@
 \alias{log_fatal}
 \title{Log a fatal message}
 \usage{
-log_fatal(message)
+log_fatal(message, ...)
 }
 \arguments{
 \item{message}{your message to log}
+
+\item{...}{more elements of the message, to be concatenated with the message}
 }
 \value{
 invisibly returns TRUE/FALSE

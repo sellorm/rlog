@@ -4,6 +4,7 @@
 #' than the priority of your message
 #'
 #' @param message your message to log
+#' @param ... more elements of the message, to be concatenated with the message
 #'
 #' @return invisibly returns TRUE/FALSE
 #' @examples
@@ -23,6 +24,7 @@ log_trace <- function(message, ...){
 #' than the priority of your message
 #'
 #' @param message your message to log
+#' @param ... more elements of the message, to be concatenated with the message
 #'
 #' @return invisibly returns TRUE/FALSE
 #' @examples
@@ -42,6 +44,7 @@ log_debug <- function(message,...){
 #' than the priority of your message
 #'
 #' @param message your message to log
+#' @param ... more elements of the message, to be concatenated with the message
 #'
 #' @return invisibly returns TRUE/FALSE
 #' @examples
@@ -61,6 +64,7 @@ log_info <- function(message, ...){
 #' than the priority of your message
 #'
 #' @param message your message to log
+#' @param ... more elements of the message, to be concatenated with the message
 #'
 #' @return invisibly returns TRUE/FALSE
 #' @examples
@@ -80,6 +84,7 @@ log_warn <- function(message, ...){
 #' than the priority of your message
 #'
 #' @param message your message to log
+#' @param ... more elements of the message, to be concatenated with the message
 #'
 #' @return invisibly returns TRUE/FALSE
 #' @examples
@@ -100,6 +105,7 @@ log_error <- function(message, ...){
 #' than the priority of your message
 #'
 #' @param message your message to log
+#' @param ... more elements of the message, to be concatenated with the message
 #'
 #' @return invisibly returns TRUE/FALSE
 #' @examples
