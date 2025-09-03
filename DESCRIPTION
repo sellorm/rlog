@@ -1,6 +1,6 @@
 Package: rlog
 Title: A Simple, Opinionated Logging Utility 
-Version: 0.1.0
+Version: 0.1.0.9999
 Authors@R: 
     person(given = "Mark",
            family = "Sellors",

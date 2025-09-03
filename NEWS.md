@@ -1,3 +1,8 @@
+# rlog (development version)
+
+* The "log_" functions ("log_error", "log_info", etc) now accepts any number of
+  arguments via ... in the function call.
+
 # rlog 0.1.0
 
 * Prepare for CRAN submission
