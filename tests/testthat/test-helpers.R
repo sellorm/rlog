@@ -16,7 +16,7 @@ test_that("default functionality is OK", {
 })
 
 test_that("default functionality is OK", {
-  Sys.setenv("LOG_LEVEL"="TRACE")
+  Sys.setenv("LOG_LEVEL" = "TRACE")
   expect_true(log_fatal("FATAL"))
   expect_true(log_error("ERROR"))
   expect_true(log_warn("WARN"))
