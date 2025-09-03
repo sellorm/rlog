@@ -14,7 +14,7 @@
 #' log_trace("This is a trace message")
 #' }
 #' @export
-log_trace <- function(message, ...){
+log_trace <- function(message, ...) {
   log_msg("TRACE", message, ...)
 }
 
@@ -34,7 +34,7 @@ log_trace <- function(message, ...){
 #' log_debug("This is a debug message")
 #' }
 #' @export
-log_debug <- function(message,...){
+log_debug <- function(message, ...) {
   log_msg("DEBUG", message, ...)
 }
 
@@ -54,7 +54,7 @@ log_debug <- function(message,...){
 #' log_info("This is an info message")
 #' }
 #' @export
-log_info <- function(message, ...){
+log_info <- function(message, ...) {
   log_msg("INFO", message, ...)
 }
 
@@ -74,7 +74,7 @@ log_info <- function(message, ...){
 #' log_warn("This is a warning message")
 #' }
 #' @export
-log_warn <- function(message, ...){
+log_warn <- function(message, ...) {
   log_msg("WARN", message, ...)
 }
 
@@ -94,7 +94,7 @@ log_warn <- function(message, ...){
 #' log_error("This is an error message")
 #' }
 #' @export
-log_error <- function(message, ...){
+log_error <- function(message, ...) {
   log_msg("ERROR", message, ...)
 }
 
@@ -115,6 +115,6 @@ log_error <- function(message, ...){
 #' log_fatal("This is a fatal message")
 #' }
 #' @export
-log_fatal <- function(message, ...){
+log_fatal <- function(message, ...) {
   log_msg("FATAL", message, ...)
 }
