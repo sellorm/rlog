@@ -30,3 +30,12 @@ test_that("output is going going to the correct stdout/stderr", {
   expect_match(capture.output(log_error("error"), type = "message"), "error$")
   expect_match(capture.output(log_fatal("fatal"), type = "message"), "fatal$")
 })
+
+test_that("multi-part messages render as expected", {
+  test_var1 <- "hats"
+  test_var2 <- "shoes"
+  test_var3 <- c("trilby", "porkpie", "fez")
+  expect_output(log_info("my message", test_var1, test_var2, "end"))
+  expect_match(capture_output(log_info("my message", test_var1, test_var2, "end")), "my message hats shoes end$")
+  expect_match(capture_output(log_info("my message", test_var3)), 'my message c[(]\"trilby\", \"porkpie\", \"fez\"[)]$')
+})
