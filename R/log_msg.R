@@ -15,7 +15,7 @@ log_msg <- function(msg_level = "INFO", message, ...) {
     stop("The LOG_LEVEL environment variable is incorrectly set")
   }
   if (as.integer(levels[tolower(level)]) <= as.integer(levels[tolower(msg_level)])) {
-    log_text <- paste0(Sys.time(),
+    log_text <- paste0(format(Sys.time()),
       " [", msg_level, "] ",
       paste(c(message, list(...)), sep = " ", collapse = " "),
       "\n",
