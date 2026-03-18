@@ -1,20 +1,21 @@
-## Resumbmission
+## R CMD check results
 
-This is a resubmission to mitigate the previous note about the misspelling of
-the package name in the description. Per CRAN advice, this is now enclosed in 
-single quotes and resumbitted for consideration.
+Tested on 2026-03-18 against:
 
-## Original submission test environments
-* local R installation, MacOS 11.1, R 4.0.3
-* Fedora Linux, R-devel, clang, gfortran (R-hub)
-* Ubuntu Linux 20.04.1 LTS, R-release, GCC (R-hub)
-* Windows Server 2008 R2 SP1, R-devel, 32/64 bit (R-hub)
-* win-builder (devel)
+* MacOS 25.3.0 - R 4.5.2
+* Ubuntu 24.04.3 - R-devel
+* Windows Server 2025 - R-devel
 
-## Original R CMD check results
+All systems saw the same output:
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 notes
 
-The note relates to a possible misspelling, but it's of the package name, 'rlog'.
 
-* This is a new release.
+## Rev Dep Checks
+
+* `revdepcheck::revdep_check()` reports no errors in the 2 reverse dependencies.
+
+
+## Release
+
+* This is an updated release.

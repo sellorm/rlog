@@ -1,11 +1,11 @@
 Package: rlog
 Title: A Simple, Opinionated Logging Utility 
-Version: 0.1.0.9999
-Authors@R: 
-    person(given = "Mark",
-           family = "Sellors",
-           role = c("aut", "cre"),
-           email = "rstats@5vcc.com")
+Version: 0.2.0
+Authors@R: c(
+    person("Mark","Sellors", role = c("aut", "cre"), email = "rstats@5vcc.com", 
+    comment = c(ORCID = "0009-0007-1582-4706")),
+    person("Daniel", "Simeone", role = "ctb")
+    )
 Description: A very lightweight package that writes out log messages in an opinionated way.
   Simpler and lighter than other logging packages, 'rlog' provides a compact feature set that
   focuses on getting the job done in a Unix-like way.
@@ -15,7 +15,10 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
