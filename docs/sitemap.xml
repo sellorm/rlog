@@ -1,24 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://rlog.sellorm.com/index.html</loc>
-  </url>
-  <url>
-    <loc>https://rlog.sellorm.com/reference/log_debug.html</loc>
-  </url>
-  <url>
-    <loc>https://rlog.sellorm.com/reference/log_error.html</loc>
-  </url>
-  <url>
-    <loc>https://rlog.sellorm.com/reference/log_fatal.html</loc>
-  </url>
-  <url>
-    <loc>https://rlog.sellorm.com/reference/log_info.html</loc>
-  </url>
-  <url>
-    <loc>https://rlog.sellorm.com/reference/log_trace.html</loc>
-  </url>
-  <url>
-    <loc>https://rlog.sellorm.com/reference/log_warn.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://rlog.sellorm.com/404.html</loc></url>
+<url><loc>https://rlog.sellorm.com/LICENSE-text.html</loc></url>
+<url><loc>https://rlog.sellorm.com/LICENSE.html</loc></url>
+<url><loc>https://rlog.sellorm.com/articles/index.html</loc></url>
+<url><loc>https://rlog.sellorm.com/articles/logging_with_rlog.html</loc></url>
+<url><loc>https://rlog.sellorm.com/authors.html</loc></url>
+<url><loc>https://rlog.sellorm.com/index.html</loc></url>
+<url><loc>https://rlog.sellorm.com/news/index.html</loc></url>
+<url><loc>https://rlog.sellorm.com/reference/index.html</loc></url>
+<url><loc>https://rlog.sellorm.com/reference/log_debug.html</loc></url>
+<url><loc>https://rlog.sellorm.com/reference/log_error.html</loc></url>
+<url><loc>https://rlog.sellorm.com/reference/log_fatal.html</loc></url>
+<url><loc>https://rlog.sellorm.com/reference/log_info.html</loc></url>
+<url><loc>https://rlog.sellorm.com/reference/log_trace.html</loc></url>
+<url><loc>https://rlog.sellorm.com/reference/log_warn.html</loc></url>
 </urlset>
+
